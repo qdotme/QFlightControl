@@ -15,12 +15,16 @@ DEFINES += QFLIGHTCONTROL_LIBRARY
 
 SOURCES += qflightcontrol.cpp \
     machine.cpp \
-    localmachine.cpp
+    localmachine.cpp \
+    networkinterface.cpp \
+    localnetworkinterface.cpp
 
 HEADERS += qflightcontrol.h\
         QFlightControl_global.h \
     machine.h \
-    localmachine.h
+    localmachine.h \
+    networkinterface.h \
+    localnetworkinterface.h
 
 unix:!symbian {
     maemo5 {
